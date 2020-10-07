@@ -1,4 +1,4 @@
-# Úloha: vytvoření šachovnice
+# Cvičení: vytvoření šachovnice
 
 Úloha, kterou budeme během semestru postupně rozšiřovat.
 Zatím načteme část vstupu (bez ověřování) a zaplníme šachovnici.
@@ -17,4 +17,4 @@ význam druhého řádku (čísla) můžeme zatím ignorovat, nebude nikdy 0, je
 Jediné, co se může stát špatně, je znovuzaplnění pozice. Pokud na šachovnici už figurka je (zadaná na předchozím vstupu), program skončí a vypíše (pro příklad):
 `Position already occupied: 3A`, pokud se už pozice `3A` jednou na vstupu vyskytla.
 
-Pokud je všechen vstup zadán správně, na konci programu vypište číselné souřadnice šachovnice ([0,0] v levém horním rohu odpovídá `3A`) a jejich číselnou hodnotu (není nutné dodržet nějaký přesný formát) výstupu.
+Pokud je všechen vstup zadán správně, na konci programu vypište číselné souřadnice šachovnice ([0,0] v levém horním rohu odpovídá `3A`) a jejich číselnou hodnotu (není nutné dodržet nějaký přesný formát).
