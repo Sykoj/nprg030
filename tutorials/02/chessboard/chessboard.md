@@ -11,6 +11,8 @@ Zatím načteme část vstupu (bez ověřování) a zaplníme šachovnici.
 kde `3A` představuje souřadnici, oddělenou mezerou od čísla,
 jehož význam můžeme zatím ignorovat, nebude nikdy 0, jen ho uložte na odpovídající souřadnici do šachovnice!
 
+Vstup je zakončen řádkem, který obsahuje pouze `-1`.
+
 ![Chessboard](chessboard.png)
 
 Jediné, co se může stát špatně, je znovuzaplnění pozice. Pokud na šachovnici už figurka je (zadaná na předchozím vstupu), program skončí a vypíše (pro příklad):
