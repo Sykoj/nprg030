@@ -7,4 +7,4 @@ powersOfTwo = [ 2 ** x
 powersSums = [ sum(range(x+1)) # from 0 to include the power of two
               for x in powersOfTwo ]
 
-print(sum(powerSums))
+print(sum(powersSums))

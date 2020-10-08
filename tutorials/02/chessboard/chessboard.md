@@ -4,13 +4,12 @@
 Zatím načteme část vstupu (bez ověřování) a zaplníme šachovnici.
 
 1. Připravte šachovnici, 8x8, kde každé políčko obsahuje číslo. Políčka inicializujte na 0.
-2. Do šachovnice budeme umisťovat figurky, zadávají se na vstupu. Vstup pro jednu figurku je vždy zadán na dvou řádcích:
+2. Do šachovnice budeme umisťovat figurky, zadávají se na vstupu. Vstup pro jednu figurku je vždy zadán na řádku po dvou položkách:
 ```
-3A
-0120
+3A 0120
 ```
-kde `3A` představuje souřadnici:
-význam druhého řádku (čísla) můžeme zatím ignorovat, nebude nikdy 0, jen ho uložte na odpovídající souřadnici do šachovnice!
+kde `3A` představuje souřadnici, oddělenou mezerou od čísla,
+jehož význam můžeme zatím ignorovat, nebude nikdy 0, jen ho uložte na odpovídající souřadnici do šachovnice!
 
 ![Chessboard](chessboard.png)
 
